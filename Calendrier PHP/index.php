@@ -9,7 +9,29 @@
     <title>calendrier</title>
 </head>
 <body>
-<h1>Exo Calendrier</h1>
+
+<div class="month">
+    <ul>
+        <?php
+        $monthlist = array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre");
+
+        $month = $_GET ['month'];
+        $year = $_GET ['year'];
+        $days = $_GET ['day'];
+        echo $month;
+        echo "<br>";
+        echo $year;
+
+
+
+        //    for ($mois = 0 ; $mois < 13 ;$mois++){
+        //        echo $month[$mois];
+        //    }
+        //     //"<li>August<br>2017</li>"
+        //    ?>
+    </ul>
+</div>
+
 <ul class="weekdays">
     <?php
     /**
@@ -32,7 +54,7 @@
         if ($days == 5) {
             echo "<li><span class=\"active\">$days</span></li>";
         } else echo "<li>$days</li>";
-}
+    }
     ?>
 </ul>
 

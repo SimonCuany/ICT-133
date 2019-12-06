@@ -20,7 +20,7 @@
   <component name="ProjectId" id="1Tt3NEQBz7ZIpu5t5aIx3YmpmWq" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercice C" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Calendrier PHP" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -42,7 +42,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$/exercice C" port="8888">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$/Calendrier PHP" port="8088">
       <method v="2" />
     </configuration>
   </component>
@@ -64,6 +64,8 @@
       <workItem from="1574937895596" duration="633000" />
       <workItem from="1574938842268" duration="943000" />
       <workItem from="1575030888508" duration="145000" />
+      <workItem from="1575635923970" duration="70000" />
+      <workItem from="1575636003930" duration="4572000" />
     </task>
     <servers />
   </component>
