@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ICT-133" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,6 +69,8 @@
       <workItem from="1575030888508" duration="145000" />
       <workItem from="1575635923970" duration="70000" />
       <workItem from="1575636003930" duration="4572000" />
+      <workItem from="1576142601484" duration="466000" />
+      <workItem from="1576143169626" duration="4240000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,8 @@ body {font-family: Verdana, sans-serif;}
     width: 100%;
     background: #1abc9c;
     text-align: center;
+    color: white;
+    font-size: large;
 }
 
 /* Month list */
@@ -38,7 +40,7 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
     margin: 0;
     padding: 10px 0;
-    background-color:#ddd;
+    background-color: #d6d6d6;
 }
 
 .weekdays li {
@@ -51,7 +53,7 @@ body {font-family: Verdana, sans-serif;}
 /* Days (1-31) */
 .days {
     padding: 10px 0;
-    background: #eee;
+    background: #e2e2e2;
     margin: 0;
 }
 

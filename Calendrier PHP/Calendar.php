@@ -13,8 +13,6 @@
  * Date   : 05.12.2019
  * Time   : 11:29
  */
-
-
 ?>
 
 <div class="month">

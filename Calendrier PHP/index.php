@@ -18,17 +18,11 @@
         $month = $_GET ['month'];
         $year = $_GET ['year'];
         $days = $_GET ['day'];
-        echo $month;
+        echo $month [$monthlist];
         echo "<br>";
         echo $year;
 
-
-
-        //    for ($mois = 0 ; $mois < 13 ;$mois++){
-        //        echo $month[$mois];
-        //    }
-        //     //"<li>August<br>2017</li>"
-        //    ?>
+        ?>
     </ul>
 </div>
 
@@ -50,7 +44,7 @@
     ?></ul>
 <ul class="days">
     <?php
-    for ($days = 0; $days < 32; $days++) {
+    for ($days = 1; $days < 32; $days++) {
         if ($days == 5) {
             echo "<li><span class=\"active\">$days</span></li>";
         } else echo "<li>$days</li>";
