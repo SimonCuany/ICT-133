@@ -13,14 +13,21 @@
 <div class="month">
     <ul>
         <?php
-        $monthlist = array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre");
+
+        $monthlist = array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre",
+            "Octobre", "Novembre", "Décembre");
+
+        $monthbefore = $month - 1;
+        $monthafter = $month + 1;
 
         $month = $_GET ['month'];
+
         $year = $_GET ['year'];
-        $days = $_GET ['day'];
-        echo $month [$monthlist];
+
+        echo $monthlist [$month - 1];
         echo "<br>";
         echo $year;
+
 
         ?>
     </ul>
@@ -44,11 +51,34 @@
     ?></ul>
 <ul class="days">
     <?php
-    for ($days = 1; $days < 32; $days++) {
-        if ($days == 5) {
+    $datenow = date("d");
+    $yearnow = date("Y");
+    $monthnow = date("m");
+    $firstday = date("N", strtotime("$year-$month-1"));
+    $nbdayformonth = date("t", strtotime("$year-$month-1"));
+
+
+    //écrire les jours du mois précédent
+
+    $lastmonth = date("t", strtotime("$year-" . $month - 1 . "-1"));
+    for ($i = 0; $i < $firstday - 1; $i++) {
+        $daytoprint = $lastmonth - $firstday + $i + 2;
+        echo "<li class=\"lastmonth\"> $daytoprint</li>";
+    }
+
+    for ($days = 1; $days <= $nbdayformonth; $days++) {
+        if ($days == $datenow && $year == $yearnow && $month == $monthnow) {
             echo "<li><span class=\"active\">$days</span></li>";
         } else echo "<li>$days</li>";
     }
+    //Afficher les jours d'après
+
+
+    $nbdaynextmonth = ($firstday - 1 + $nbdayformonth) % 7;
+    for ($i = 1; $i <= $nbdaynextmonth; $i++) {
+        echo  "<li>$i</li>";
+    }
+
     ?>
 </ul>
 

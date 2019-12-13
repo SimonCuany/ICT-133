@@ -44,10 +44,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$/Calendrier PHP" port="8088">
       <method v="2" />
     </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Calendrier PHP/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,6 +79,8 @@
       <workItem from="1575636003930" duration="4572000" />
       <workItem from="1576142601484" duration="466000" />
       <workItem from="1576143169626" duration="4240000" />
+      <workItem from="1576240917617" duration="189000" />
+      <workItem from="1576242003291" duration="7034000" />
     </task>
     <servers />
   </component>
