@@ -75,5 +75,8 @@ body {font-family: Verdana, sans-serif;}
 }
 .lastmonth {
     color: #2300c7;
-    background-color: #c8cbd4;
+    background-color: #d8dbe5;
+}
+.monthafter {
+    background-color: #d8dbe5;
 }
