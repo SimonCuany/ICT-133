@@ -40,6 +40,10 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT133\ICT-133\MVC" />
+      <recent name="C:\xampp\ICT133\ICT-133\MVC\view" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/view" />
     </key>
@@ -73,7 +77,7 @@
       <updated>1576586093796</updated>
       <workItem from="1576586094950" duration="10987000" />
       <workItem from="1576738305406" duration="324000" />
-      <workItem from="1576745915324" duration="1090000" />
+      <workItem from="1576745915324" duration="9207000" />
     </task>
     <servers />
   </component>
