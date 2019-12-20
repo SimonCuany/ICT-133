@@ -1,4 +1,5 @@
 <?php
+require_once ('controller.php');
 if (isset ($_GET ['action'])){
 
     $action = $_GET['action'];
@@ -10,11 +11,11 @@ else
 switch ($action) {
     case 'Movies':
         $title = 'Films';
-        require_once 'view/movies.php';
+        showMovies();
         break;
     case 'Concerts':
         $title = 'Concerts';
-        require_once 'view/concerts.php';
+        showConcerts();
         break;
     default :
         $title = 'Accueil';
